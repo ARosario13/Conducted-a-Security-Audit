@@ -1,49 +1,28 @@
 <h1>Conducted a Security Audit</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+As part of the Google Cybersecurity Professional Certificate training on Coursera, I was given a sample scenario featuring a fictional company. I was asked to perform an internal security audit and provide a risk assessment.
 <br />
-
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
 
 <h2>Environments Used </h2>
 
 - <b>iPadOS</b>
 
-<h2>Program walk-through:</h2>
+<h2>Program walkthrough:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Sample scenario given by Coursera: <br/>
+<a href="https://imgur.com/oZcfBiL"><img src="https://i.imgur.com/oZcfBiL.png" title="source: imgur.com" /></a>
+ <a href="https://imgur.com/wEDh0UY"><img src="https://i.imgur.com/wEDh0UY.png" title="source: imgur.com" /></a>
+ <a href="https://imgur.com/ots8x7Z"><img src="https://i.imgur.com/ots8x7Z.png" title="source: imgur.com" /></a>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+My finalized security audit:  <br/>
+<a href="https://imgur.com/RlL0xY6"><img src="https://i.imgur.com/RlL0xY6.png" title="source: imgur.com" /></a>
+ <a href="https://imgur.com/649hu0M"><img src="https://i.imgur.com/649hu0M.png" title="source: imgur.com" /></a>
+ <a href="https://imgur.com/wsQWBNQ"><img src="https://i.imgur.com/wsQWBNQ.png" title="source: imgur.com" /></a>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
